@@ -1,0 +1,32 @@
+body {
+  width: 600px;
+  margin: 0 auto; /* 上下（消除头顶间隙） 左右 */
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px; /* 上 右 下 左 */
+  border: 5px solid black;
+}
+html {
+  font-size: 10px;
+  font-family: "Playwrite NZ Basic", cursive;
+  background-color: #00539f;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black; /*水平偏移量 垂直偏移量 模糊距离 颜色*/
+  font-size: 60px;
+  text-align: center; /* 位置居中 */
+}
+p,
+li {
+  font-size: 30px;
+  /*line-height: 2;*/
+  line-height: 2; /*行高（行间距）*/
+  letter-spacing: 1px; /*字间距*/
+}
+img {
+  width: 580px;
+  display: block;
+  margin: 0 auto;
+}
